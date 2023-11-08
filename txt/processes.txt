@@ -1,0 +1,253 @@
+  PID TTY          TIME CMD
+    1 ?        00:00:00 init
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 ksoftirqd/0
+    5 ?        00:00:00 kworker/0:0H
+    7 ?        00:00:19 rcu_preempt
+    8 ?        00:00:00 rcu_sched
+    9 ?        00:00:00 rcu_bh
+   10 ?        00:00:00 migration/0
+   11 ?        00:00:00 watchdog/0
+   12 ?        00:00:00 watchdog/1
+   13 ?        00:00:00 migration/1
+   14 ?        00:00:00 ksoftirqd/1
+   16 ?        00:00:00 kworker/1:0H
+   17 ?        00:00:00 kdevtmpfs
+   18 ?        00:00:00 netns
+   19 ?        00:00:00 perf
+   20 ?        00:00:00 khungtaskd
+   21 ?        00:00:00 oom_reaper
+   22 ?        00:00:00 writeback
+   23 ?        00:00:00 khugepaged
+   24 ?        00:00:00 crypto
+   25 ?        00:00:00 kintegrityd
+   26 ?        00:00:00 bioset
+   27 ?        00:00:00 kblockd
+   28 ?        00:00:00 ata_sff
+   30 ?        00:00:00 cfinteractive
+   34 ?        00:00:05 kswapd0
+   35 ?        00:00:00 vmstat
+   36 ?        00:00:00 fsnotify_mark
+   37 ?        00:00:01 ecryptfs-kthrea
+   65 ?        00:00:00 acpi_thermal_pm
+   67 ?        00:00:06 i915/signal:0
+   68 ?        00:00:00 i915/signal:1
+   69 ?        00:00:00 i915/signal:2
+   70 ?        00:00:00 bioset
+   71 ?        00:00:00 bioset
+   72 ?        00:00:00 bioset
+   73 ?        00:00:00 bioset
+   74 ?        00:00:00 bioset
+   75 ?        00:00:00 bioset
+   76 ?        00:00:00 bioset
+   77 ?        00:00:00 bioset
+   78 ?        00:00:00 nvme
+   79 ?        00:00:00 kpsmoused
+   83 ?        00:00:00 dm_bufio_cache
+   86 ?        00:00:00 binder
+   87 ?        00:00:00 ipv6_addrconf
+   97 ?        00:00:00 bioset
+   98 ?        00:00:14 mmcqd/0
+   99 ?        00:00:00 bioset
+  100 ?        00:00:00 mmcqd/0boot0
+  101 ?        00:00:00 bioset
+  102 ?        00:00:00 mmcqd/0boot1
+  103 ?        00:00:00 bioset
+  104 ?        00:00:00 mmcqd/0rpmb
+  105 ?        00:00:06 hwrng
+  106 ?        00:00:00 deferwq
+  107 ?        00:00:27 irq/51-ELAN0000
+  109 ?        00:00:00 kdmflush
+  110 ?        00:00:00 bioset
+  111 ?        00:00:00 kverityd
+  112 ?        00:00:00 bioset
+  113 ?        00:00:00 kworker/0:1H
+  114 ?        00:00:00 ext4-rsv-conver
+  123 ?        00:00:00 kworker/1:1H
+  134 ?        00:00:00 udevd
+  154 ?        00:00:02 jbd2/mmcblk0p1-
+  155 ?        00:00:00 ext4-rsv-conver
+  175 ?        00:00:00 jbd2/mmcblk0p8-
+  176 ?        00:00:00 ext4-rsv-conver
+  253 ?        00:00:00 frecon
+  254 ?        00:00:00 frecon <defunct>
+  255 pts/1    00:00:00 agetty
+  256 pts/2    00:00:00 agetty
+  257 pts/3    00:00:00 agetty
+  258 ?        00:00:01 loop0
+  260 ?        00:00:00 kdmflush
+  266 ?        00:00:00 bioset
+  267 ?        00:00:00 kcryptd_io
+  269 ?        00:00:00 kcryptd
+  270 ?        00:00:00 dmcrypt_write
+  271 ?        00:00:00 bioset
+  279 ?        00:00:00 jbd2/dm-1-8
+  280 ?        00:00:00 ext4-rsv-conver
+  444 ?        00:00:00 systemd-journal
+  483 ?        00:00:00 cfg80211
+  530 ?        00:00:00 bioset
+  562 ?        00:00:00 rsyslogd
+  584 ?        00:00:04 dbus-daemon
+  587 ?        00:01:31 irq/264-iwlwifi
+  627 ?        00:00:00 wpa_supplicant
+  713 ?        00:00:00 chrome
+  775 ?        00:00:00 loop1
+  799 ?        00:00:00 kdmflush
+  804 ?        00:00:00 bioset
+  807 ?        00:00:00 kverityd
+  811 ?        00:00:00 bioset
+  992 ?        00:00:11 powerd
+ 1006 ?        00:00:00 tcsd
+ 1017 ?        00:00:00 chapsd
+ 1098 ?        00:00:00 session_manager
+ 1100 ?        00:00:00 cryptohomed
+ 1205 ?        00:00:12 shill
+ 1207 ?        00:00:00 debugd
+ 1213 ?        00:17:07 chrome
+ 1245 ?        00:00:00 logger
+ 1364 ?        00:00:00 chrome
+ 1374 ?        00:00:00 nacl_helper
+ 1378 ?        00:00:00 nacl_helper_non
+ 1381 ?        00:00:01 chrome
+ 1412 ?        00:16:41 chrome
+ 1420 ?        00:05:03 chrome
+ 1439 ?        00:00:00 chrome
+ 1498 ?        00:00:00 periodic_schedu
+ 1499 ?        00:00:09 esif_ufd
+ 1534 ?        00:00:01 permission_brok
+ 1536 ?        00:00:00 mtpd
+ 1537 ?        00:00:00 avahi-daemon
+ 1542 ?        00:00:00 minijail0
+ 1546 ?        00:00:00 ModemManager
+ 1564 ?        00:00:00 avahi-daemon
+ 1591 ?        00:00:00 update_engine
+ 1601 ?        00:00:00 minijail0
+ 1611 ?        00:00:01 cros-disks
+ 1619 ?        00:00:00 minijail0
+ 1621 ?        00:00:00 kworker/u5:2
+ 1629 ?        00:00:00 conntrackd
+ 1630 ?        00:01:28 cras
+ 1631 ?        00:00:00 periodic_schedu
+ 1657 ?        00:00:00 upstart-socket-
+ 1662 ?        00:00:00 irq/67-max98090
+ 1696 ?        00:00:27 baytrail-pcm-au
+ 1702 ?        00:00:56 irq/29-AudioDSP
+ 1781 ?        00:00:00 hci0
+ 1788 ?        00:00:00 hci0
+ 1789 ?        00:00:00 periodic_schedu
+ 1921 ?        00:00:00 periodic_schedu
+ 1943 ?        00:00:00 minijail0
+ 1944 ?        00:00:00 minijail-init
+ 1951 ?        00:00:00 minijail-init
+ 1953 ?        00:00:00 minijail-init
+ 1964 ?        00:00:00 minijail-init
+ 1969 ?        00:00:00 tlsdated
+ 1970 ?        00:00:00 btdispatch
+ 1971 ?        00:00:00 anomaly_detecto
+ 1977 ?        00:00:00 newblued
+ 1980 ?        00:00:00 bluetoothd
+ 1987 ?        00:00:00 tlsdated-setter
+ 2023 ?        00:00:00 krfcommd
+ 2031 ?        00:00:15 Web Content
+ 2126 ?        00:00:00 kworker/0:0
+ 2402 ?        00:00:01 chrome
+ 2409 ?        00:00:02 chrome
+ 2454 ?        00:00:00 kworker/1:0
+ 2456 ?        00:00:00 kworker/u5:1
+ 2465 ?        00:00:00 easy_unlock
+ 2656 ?        00:00:00 chrome
+ 2806 ?        00:00:00 sleep
+ 2820 ?        00:00:00 sleep
+ 2824 ?        00:00:00 sleep
+ 2829 ?        00:00:00 minijail-init
+ 2832 ?        00:00:00 sleep
+ 2840 ?        00:00:00 minijail-init
+ 2845 ?        00:00:00 memd
+ 2847 ?        00:00:06 metrics_daemon
+ 2925 pts/4    00:00:00 man
+ 2935 pts/4    00:00:00 pager
+ 3121 ?        00:00:00 kworker/0:1
+ 3242 ?        00:00:00 sleep
+ 3608 ?        00:00:00 sleep
+ 3958 pts/5    00:00:00 ps
+ 8383 ?        00:00:00 smbproviderd
+ 9981 ?        00:00:00 bash
+ 9983 ?        00:00:00 bash
+10000 ?        00:00:00 sudo
+10004 ?        00:00:00 sh
+10261 ?        00:00:00 kauditd
+10272 ?        00:00:00 dbus-daemon
+10305 ?        00:00:00 su
+10311 ?        00:00:00 xinit
+10315 ?        00:01:30 Xorg
+10380 ?        00:00:00 pkexec <defunct>
+10384 ?        00:00:00 polkitd
+10390 ?        00:00:00 croutonxinitrc-
+10399 ?        00:00:00 croutonpowerd
+10400 ?        00:00:00 croutontriggerd
+10412 ?        00:00:01 croutontriggerd
+10413 ?        00:00:00 croutontriggerd
+10417 ?        00:00:04 mawk
+10418 ?        00:00:00 hexdump
+10419 ?        00:00:00 hexdump
+10420 ?        00:00:00 hexdump
+10421 ?        00:00:00 hexdump
+10422 ?        00:00:00 hexdump
+10423 ?        00:00:09 hexdump
+10424 ?        00:00:00 hexdump
+10425 ?        00:00:00 hexdump
+10426 ?        00:00:00 hexdump
+10434 ?        00:00:00 xbindkeys
+10447 ?        00:00:00 xinitrc
+10457 ?        00:00:00 xfce4-session
+10460 ?        00:00:00 dbus-launch
+10461 ?        00:00:02 dbus-daemon
+10465 ?        00:00:00 xfconfd
+10469 ?        00:00:00 ssh-agent
+10470 ?        00:00:12 xfwm4
+10471 ?        00:00:00 Thunar
+10473 ?        00:00:02 xfce4-panel
+10474 ?        00:00:00 xfsettingsd
+10476 ?        00:00:01 xfdesktop
+10481 ?        00:00:00 upowerd
+10493 ?        00:00:00 gvfsd
+10496 ?        00:00:00 xfce4-power-man
+10499 ?        00:00:00 xscreensaver
+10527 ?        00:00:00 panel-7-battery
+10528 ?        00:00:00 panel-6-systray
+10529 ?        00:00:00 panel-2-actions
+10540 ?        00:00:00 gvfs-udisks2-vo
+10544 ?        00:00:00 udisksd
+10555 ?        00:00:00 gvfsd-trash
+10561 ?        00:00:00 gvfsd-metadata
+10564 ?        00:06:57 firefox
+10591 ?        00:00:00 at-spi-bus-laun
+10612 ?        00:00:27 Web Content
+10658 ?        00:00:03 WebExtensions
+10776 ?        00:05:06 Web Content
+10845 ?        01:36:12 Web Content
+10904 ?        00:00:04 xfce4-terminal
+10908 ?        00:00:00 gnome-pty-helpe
+10909 pts/4    00:00:00 bash
+14833 ?        00:00:00 minijail-init
+14837 ?        00:00:00 ml_service
+15476 pts/5    00:00:00 bash
+16993 ?        00:01:24 Web Content
+18872 ?        00:00:01 Web Content
+25076 ?        00:00:00 irq/44-mmc0
+25077 ?        00:00:00 irq/47-mmc1
+25223 ?        00:00:00 cros-disks-INIT
+25226 ?        00:00:01 drivefs
+25259 ?        00:00:00 dhcpcd
+26433 ?        00:01:08 chrome
+27547 ?        00:00:00 kworker/u4:3
+28066 ?        00:00:00 chrome
+28396 ?        00:00:24 chrome
+28588 ?        00:02:38 chrome
+29652 ?        00:00:52 Web Content
+30385 ?        00:00:21 Web Content
+31567 ?        00:00:00 kworker/u5:0
+32535 ?        00:00:00 kworker/0:2
+32545 ?        00:00:00 kworker/1:3
+32634 ?        00:00:00 chrome
+32696 ?        00:00:00 kworker/u4:2

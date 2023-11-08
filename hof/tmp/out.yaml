@@ -1,0 +1,16 @@
+---
+- !ruby/object:Person
+  name: person1
+  email: person1@asdf.com
+- !ruby/object:Person
+  name: person1
+  email: person1@asdf.com
+- !ruby/object:Person
+  name: person1
+  email: person1@asdf.com
+- !ruby/object:Person
+  name: person1
+  email: person1@asdf.com
+- !ruby/object:Person
+  name: person1
+  email: person1@asdf.com

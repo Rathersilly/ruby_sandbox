@@ -1,0 +1,116 @@
+div {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  clear: both;
+
+}
+.title {
+  border: 3px solid forestgreen;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  font-weight: bold
+}
+
+strong {
+  color: tomato;
+  text-shadow:1px 1px 20px white;
+}
+.fixed {
+  position:fixed;
+  background: orange;
+  color:white;
+  top: 0;
+  right: 0;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.absolute {
+  position:absolute;
+  background: darkblue;
+  color:white;
+  top: 300px;
+  right: 50px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.container {
+  background: cyan;
+  width: auto;
+  height: auto;
+}
+
+
+.innerdiv {
+  display: table-cell;
+  background: tomato;
+  color: white;
+  font-size: 1.2em;
+  vertical-align: middle;
+  text-align: center;
+  clear: both;
+}
+
+.note {
+  color: white;
+  background: forestgreen;
+  width: 400px;
+  font-size: 1em;
+
+}
+.float {
+  float: left;
+  clear: none;
+}
+.clearer {
+  content: ".";
+  display: block;
+  clear: left;
+  border: 0;
+}
+.d1 {
+  position: relative;
+  left: 200px;
+}
+
+.d3 {
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+}
+.col-container {
+  position: relative;
+  background: rosybrown;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.col {
+  margin: 20;
+  padding: 20;
+  text-align: center;
+}
+.col-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: tan;
+  width: 40%;
+  
+}
+.col-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: thistle;
+  width: 40%;
+}
+

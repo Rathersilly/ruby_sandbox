@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  width: 300px;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+  color: white;
+
+}
+
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+}
+.cont1 {
+  height: 30vh;
+}
+.cont1 > div {
+  width: 100px;
+  font-size: 16px;
+}
+.contcont {
+  border: 10px solid darkorchid;
+  height: 70vh;
+  width: 100%;
+}
+.cont2 {
+  flex-direction: column;
+  overflow-x: visible;
+}
+.cont2 > div {
+  font-size: 20px;
+}
+.cont3 {
+  overflow: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+.cont3 > div {
+  width: 150px;
+  font-size: 20px;
+}
+.box1 {
+  background: red;
+}
+.box2 {
+  background: orange;
+}
+.box3 {
+  background: yellow;
+  color: black;
+}
+.box4 {
+  background: green;
+}
+.box5 {
+  background: blue;
+}
+.box6 {
+  background: indigo;
+}
+.box7 {
+  background: violet;
+}
+.box8 {
+  background: tomato;
+}
+.box9 {
+  background: firebrick;
+}
+.box10 {
+  background: fuchsia;
+}
+.order-2 {
+  order: -2;
+  font-size: 16px;
+}
+.order0 {
+  order: 0;
+  font-size: 16px;
+}
+.order1 {
+  order: 1;
+  font-size: 16px;
+}
+.order2 {
+  order: 2;
+  font-size: 16px;
+  color: black;
+}

@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+	display: flex;
+	align-items: center;
+}
+.main-header {
+	height: 95px;
+	background: linear-gradient(to right,tomato,red);
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	justify-content: space-around;
+}
+.logo {
+	text-decoration: none;
+	color: white;
+	border-radius: 11px;
+	border: 5px solid white;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 40px;
+
+}
+.logotext {
+
+}
+
+.nav-link {
+	width: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-text {
+}
+
+.more {
+	background: darkred;
+}
+
+.search-bar {
+	width: 200px;
+	text-decoration: none;
+	color: white;
+}
+
+/* SUB-HEADER */
+
+.sub-header {
+	justify-content: center;
+	height: 60px;
+}
+
+.subnav-link {
+	display: flex;
+	border-radius: 11px;
+	background: rgb(254,224,224);
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	color: inherit;
+	margin: 10px;
+	text-align: center;
+	width: 80px;
+	height: 30px;
+}
+
+.a-text {
+	color: rgb(211,58,44);
+}
+
+.header-br {
+	background: linear-gradient(to top,white,lightgrey);
+	height: 20px;
+
+}
+
+aside {
+	float: right;
+	width: 30vw;
+	height: 100vh;
+	background: firebrick;
+	color: white;
+	font-size: 2em;
+}
+
+/* BODY */
+
+.body-column {
+	width: 50vw;
+	min-width: 600px;
+	margin-left: 10vw;
+}
+
+article {
+}
+
+article header {
+	display: flex;
+}
+
+.article-header-text {
+	border: 1px solid dimgrey;
+}
+
+.title-image {
+	height: 260;
+	width: 200;
+	border-radius: 20px;
+	border:rgb(211,58,44) 3px solid;
+
+}
+
+.title {
+	font-family: 'Lora', serif;
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+
+}
+.byline {
+	font-size: 1.3em;
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+}
+.byline a {
+	color: rgb(211,58,44);
+	text-decoration: underline;
+}
+
+.date-tags * {
+	color: #666;
+}
+
+.date {
+	margin-left: 10px;
+	padding-left: 10px;
+	font-weight: 400;
+}
+.date-tags a {
+	text-decoration: underline;
+	font-weight: 700;
+	font-family: sans-serif;
+}
+
+.content {
+	margin: 10px;
+	padding: 10px;
+	padding-bottom: 0;
+}
+.continue-reading {
+	margin: 10px;
+	padding: 10px;
+	padding-top: 0;
+	color: rgb(211,58,44);
+	text-decoration: underline;
+
+}

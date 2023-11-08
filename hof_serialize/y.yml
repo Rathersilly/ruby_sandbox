@@ -1,0 +1,10 @@
+---
+:people:
+  alice:
+    :pets:
+    - aardvark
+    - anteater
+    :job: astronaut
+  bob:
+    :pet: bat
+    :job: baker

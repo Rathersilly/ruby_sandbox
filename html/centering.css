@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+body {
+	display: grid;
+}
+.container {
+	width: 50vw;
+	height: 50vh;
+}
+.tomato {
+	background: tomato;
+	color: white;
+}
+.firebrick {
+	background: firebrick;
+	color: white;
+	margin: auto;
+}
+

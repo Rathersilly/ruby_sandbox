@@ -1,0 +1,32 @@
+tar 	-z zip
+	-c create archive from list of files/directories
+	-t list the contents of an archive
+	-x extract an archive
+	-f specify filename
+
+	-C specify directory to extract to
+
+Naming tar file with current date
+
+	name = $(date '+%Y-%m-%d')
+	tar -zcvf "$name.tar.gz" target
+	
+	OR
+
+	tar -zcvf "$(date '+%Y-%m-%d').tar.gz" target
+
+Examples:
+	tar -cvf archive.tar dir1 dir2 dir3/dir4 dir5/some_file.txt
+
+	tar -rf archive.tar file_to_append
+
+	tar -xf archive.tar.gz -C other_directory
+
+
+	backup just .txt files from a directory(2 ways
+
+		find mydir -maxdepth 1 -type f -name "*.txt" -print0 | xargs -0 tar cvf mydir.tar
+			# -print0 prints full filename then null, omitting the \n that -print uses
+			# xargs -0 also terminates input items with null character
+		find mydir -maxdepth 1 -type f -name "*.txt" -exec tar cvf mydir.tar {} +
+			# -exec ... {} + will append the list of names after the command 

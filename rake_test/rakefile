@@ -1,0 +1,18 @@
+# Rakefile
+#
+# usage:
+# rake (invokes default)
+# rake clean
+# rake install (invokes install, which invokes uninstall)
+# rake db:backup (invokes backup in db namespace)
+task default: [:show_pwd, :show_ruby]
+
+desc "show pwd"
+task :show_pwd do
+  puts "pwd is: #{`pwd`}"
+end
+
+task :show_ruby do
+  puts "USER = #{`ENV['USER']`}"
+end
+

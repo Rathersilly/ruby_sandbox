@@ -1,0 +1,24 @@
+a = [0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0]
+left = []
+right = []
+a.each  do |x|
+  left << x if x == 0
+  right << x if x == 1
+end
+puts left.size
+puts right.size
+
+b = a.chunk { |x| x == 0 }
+puts b.to_a
+
+# want to find out of there are more groups of 0s or 1s
+# also need to find the beginning and ending index of each chunk
+
+flag = 0
+a.each_with_index do |x, i|
+
+  start = i
+
+  if x == 0
+    left  << i
+end

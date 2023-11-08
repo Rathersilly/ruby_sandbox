@@ -1,0 +1,66 @@
+table {
+	/* border-collapse: collapse - means borders can stack
+	 * on each other 
+	border-collapse: collapse; */
+	border-collapse: separate;
+	border-spacing: 20px;
+}
+
+th {
+	border: 5px dashed green;
+	padding: 5px;
+}
+
+td {
+	border: 2px solid red;
+	padding: 2px;
+}
+tfoot th {
+	border: 4px solid orange;
+	border-radius: 4px;
+}
+
+.table2 {
+	border-collapse: collapse;
+
+}
+.table2 thead {
+	background: linear-gradient(#0aa,#fff);
+	border: 2px solid blue;
+	color: blue;
+
+}
+.table2 th {
+	border: 0;
+	border: 2px solid blue;
+}
+.table2 > tbody tr:first-child td{
+	margin: 20px;
+	padding: 20px;
+	vertical-align: middle;
+	border-top: 2px solid blue;
+}
+.table2 > tbody tr:last-child td{
+	
+	text-align: right;
+	border-bottom: 2px solid blue;
+}
+.table2 > tbody tr:nth-child(even)  {
+	background-color: darkgreen;
+}
+.table2 > tbody tr td:first-child {
+	border-left: 2px solid blue;
+}
+.table2 > tbody tr td:last-child {
+	border-right: 2px solid blue;
+}
+
+.table2 tr{
+}
+.table2 td{
+	border: 0;
+	border-bottom: 2px solid blue;
+}
+
+
+

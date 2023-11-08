@@ -1,0 +1,48 @@
+<link href="columns.css" rel="stylesheet">
+<header>float method</header>
+<section class="col-container">
+	<article class="floating-article">
+		<p>not sure why the containing div</p>
+		<p>doesnt surround these 2 columns</p>
+		<p>google "clearfix" to fix it though</p>
+	</article>
+	<article class="floating-article">
+		<p>these columns have width: 45% -</p> 
+		<p>a pretty hacky solution</p>
+	</article>
+</section>
+<section class="clearing-section">
+	this section has the clear:left or clear:both property
+	set, else it would be to the right of the floated divs
+	if they didnt have width set
+</section>
+
+<header>flexbox method</header>
+<section class="flex-container">
+	<article class="flex-article">
+		<p>the flex container expands to include</p>
+		<p>the columns as expected</p>
+	</article>
+	<article class="flex-article">
+		<p>to get equal width columns,</p>
+		<p>give them both width: 100%</p>
+	</article>
+</section>
+
+
+<header>flexbox 3 columns</header>
+<section class="flex-container">
+	<article class="flex-article">
+		<p>to get equal width columns,</p>
+		<p>give them both width: 100%</p>
+	</article>
+	<article class="flex-article">
+		<p>literally just added third article</p>
+		<p>didnt have to change css at all!</p>
+	</article>
+	<article class="flex-article hi-container">
+		<p class="hi">hi</p>
+
+	</article>
+</section>
+

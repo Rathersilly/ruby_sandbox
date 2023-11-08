@@ -1,0 +1,62 @@
+html * {
+	color: white;
+	margin: 10px;
+	border: 2px solid black;
+	padding: 5px;
+}
+header {
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: blue;
+	text-transform: uppercase;
+	font-size: large;
+}
+.col-left {
+}
+p {
+	border: 2px solid white;
+}
+
+.floating-article {
+	float: left;
+	margin: 10px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: darkgreen;
+	width: 45%;
+}
+.col-container {
+	display: block;
+	height: auto;
+	background-color: darkblue;
+}
+
+section {
+	background-color: firebrick;
+	color: white;
+}
+.clearing-section {
+	clear: left;
+	background-color: magenta;
+	color: white;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+}
+.flex-article {
+
+	width: 100%;
+	background-color: darkgreen;
+	color: white;
+}
+
+.hi-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+.hi {
+}
+
+

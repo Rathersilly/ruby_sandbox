@@ -1,0 +1,156 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background: teal;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	height: 40;
+	font-size: 1.2em;
+}
+.logo {
+	margin-left: 10%;
+	font-family: 'Reggae One', cursive;
+	font-weight: bold;
+}
+
+nav {
+	display: flex;
+}
+.nav-center div{
+	margin: 20px;
+}
+
+.nav-right {
+	margin-right: 10%;
+}
+
+/* Body */
+#station-identification {
+	background: teal;
+	margin: auto;
+	margin-top: 20px;
+	width: 90vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+#station-identification img {
+	width: 60;
+	height: 60;
+}
+
+.big-logo, .slogan {
+	font-size: 4em;
+	font-family: 'Reggae One', cursive;
+	font-weight: bold;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 10px;
+	background: teal;
+	width: 90vw;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+.grid div {
+	background: green;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 3em;
+
+
+}
+.grid1 {
+	grid-column: 1 / span 2;
+	grid-row: 1 / span 3;
+	background: tomato;
+}
+.grid2 {
+	grid-column: 3 / span 1;
+	grid-row: 1 / span 2;
+}
+.grid3 {
+	grid-column: 4 / span 1;
+	grid-row: 1 / span 2;
+}
+.grid4 {
+	grid-column: 1 / span 2;
+	grid-row: 4 / span 2;
+}
+
+.grid5 {
+	grid-column: 3 / span 2;
+	grid-row: 3 / span 3;
+}
+
+.divider {
+	font-size: 3em;
+	background: yellow;
+	margin: auto;
+	margin-top: 20px;
+	width: 90vw;
+}
+.popular-container {
+	display: flex;
+	background: tomato;
+	margin: auto;
+	margin-top: 20px;
+	width: 90vw;
+	height: 200px;
+
+}
+.popular {
+	flex-grow: 1;
+	margin: 10px;
+	background: yellow;
+
+}
+
+.story-grid {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: auto auto auto auto;
+	background: teal;
+	width: 90vw;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+}
+.story-grid div {
+	background: green;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 3em;
+
+
+}
+
+.all-stories {
+	margin: 20 auto auto auto;
+	background: teal;
+	width: 100px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+

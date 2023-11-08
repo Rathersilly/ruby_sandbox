@@ -1,0 +1,38 @@
+MatchData
+
+$~ = last MatchData object
+$& = last match
+$` = last pre-match
+$' = last post-match
+$1 = 1st capture group
+$2 = 2nd capture group etc
+
+str = 'Aabc1def2ghi3Z'
+
+m = str.match(/\w(\w\w\w)\d(\w{3})\d(ghi)\d\w/)		$1 = 'abc', $2 = 'def', $3 = 'ghi'
+m.captures[1] = $2 = 'def'
+m.pre_match = 'A'                       m.begin(2) = 5  # beginning of 2nd capture group
+m.post_match = '3Z'                     m.end(3) = 12   # end of 3rd capture group
+
+
+Lookahead 	(?=     ) positive	
+		(?!	) negative
+	re = /\w{3}(?=2)/  matches 'def'
+
+Lookbehind	(?<=    ) positive	
+		(?<!	) negative
+	re = /(?<=1)\w{3}/  matches 'def'
+	
+Modifiers
+	/abc/i	i = case insensitive
+		m = multiline (makes wildcard . match \n, which it usually doesnt)
+		x = makes parser ignore whitespace(unless escaped). allows multiline
+			regex and comments eg. # comment
+
+Interpolation
+	str = "a.c"
+	re = /#{str}/   			/a.c/		// is Regexp literal constructor
+	re = /#{Regexp.new(str)}/   		/a.c/ 		Regexp.new does same thing.
+	re = /#{Regexp.escape(str)}/   		/a\\.c/
+	
+	

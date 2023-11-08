@@ -1,0 +1,35 @@
+[?1h=[?25l[H[2J(B[mtop - 22:34:05 up 3 days,  2:32,  0 users,  load average: 1.85, 2.34, 3.44(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 276 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 272 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   2 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 40.1 (B[m[39;49mus,(B[m[39;49m[1m  8.9 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 49.8 (B[m[39;49mid,(B[m[39;49m[1m  1.2 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3957432 (B[m[39;49mtotal,(B[m[39;49m[1m   393360 (B[m[39;49mfree,(B[m[39;49m[1m  2558900 (B[m[39;49mused,(B[m[39;49m[1m  1005172 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  5797016 (B[m[39;49mtotal,(B[m[39;49m[1m  4229396 (B[m[39;49mfree,(B[m[39;49m[1m  1567620 (B[m[39;49mused.(B[m[39;49m[1m   594256 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                           (B[m[39;49m[K
+(B[m[1m12707 rathers+  20   0 2975956 202380  42776 R 100.0  5.1  53:49.68 Web Content                                                       (B[m[39;49m[K
+(B[m 7464 rathers+  20   0  382104 103612  94864 S  15.8  2.6  25:16.33 Xorg                                                              (B[m[39;49m[K
+(B[m[1m21013 rathers+  20   0   40648   3776   3036 R  10.5  0.1   0:00.03 top                                                               (B[m[39;49m[K
+(B[m29467 rathers+  20   0 3580836 268820  93764 S  10.5  6.8  32:20.26 firefox                                                           (B[m[39;49m[K
+(B[m 1307 rathers+  12  -8 1088176 259768  87636 S   5.3  6.6  83:07.95 chrome                                                            (B[m[39;49m[K
+(B[m 1755 root      20   0       0      0      0 S   5.3  0.0   6:40.45 baytrail-pcm-au                                                   (B[m[39;49m[K
+(B[m 7622 rathers+  20   0  372968  12272   7704 S   5.3  0.3   1:40.17 xfwm4                                                             (B[m[39;49m[K
+(B[m17900 rathers+  20   0 4745984 145584  71232 S   5.3  3.7   0:57.71 chrome                                                            (B[m[39;49m[K
+(B[m27317 rathers+  20   0 2872564 131688  79668 S   5.3  3.3   4:02.48 Web Content                                                       (B[m[39;49m[K
+(B[m29616 rathers+  20   0 3477900 124724  52692 S   5.3  3.2  39:14.16 Web Content                                                       (B[m[39;49m[K
+(B[m    1 root      20   0   12372    680    676 S   0.0  0.0   0:00.99 init                                                              (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.05 kthreadd                                                          (B[m[39;49m[K
+(B[m    3 root      20   0       0      0      0 S   0.0  0.0   0:02.33 ksoftirqd/0                                                       (B[m[39;49m[K
+(B[m    5 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 kworker/0:0H                                                      (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   1:32.60 rcu_preempt                                                       (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 S   0.0  0.0   0:01.42 rcu_sched                                                         (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S   0.0  0.0   0:00.00 rcu_bh                                                            (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.75 migration/0                                                       (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.63 watchdog/0                                                        (B[m[39;49m[K
+(B[m   12 root      rt   0       0      0      0 S   0.0  0.0   0:00.54 watchdog/1                                                        (B[m[39;49m[K
+(B[m   13 root      rt   0       0      0      0 S   0.0  0.0   0:00.47 migration/1                                                       (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S   0.0  0.0   0:01.72 ksoftirqd/1                                                       (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 S   0.0  0.0   0:00.24 kworker/1:0H                                                      (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs                                                         (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 netns                                                             (B[m[39;49m[K
+(B[m   19 root       0 -20       0      0      0 S   0.0  0.0   0:00.00 perf                                                              (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S   0.0  0.0   0:00.13 khungtaskd                                                        (B[m[39;49m[K[?1l>[35;1H
+[?12l[?25h[K

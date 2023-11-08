@@ -1,0 +1,32 @@
+Ruby methods that use regex
+
+String#scan
+>> "testing 1 2 3 testing 4 5 6".scan(/\d/)
+=> ["1", "2", "3", "4", "5", "6"]
+>> violinists = "Leopold Auer was the teacher of Jascha Heifetz".scan(/([A-Z]\w+)\s+([A-Z]\w+)/)
+=> [["Leopold", "Auer"], ["Jascha", "Heifetz"]]
+
+String#split
+>> "Ruby".split(//)
+=> ["R", "u", "b", "y"]
+
+	can use this to populate arrays or hashes etc.
+
+sub/gsub and sub!/gsub!
+>> "ABCZEZ".sub(/Z/,D)		subs once
+=> "ABCDEZ"
+>> "ABCZEZ".gsub(/Z/,D)		subs all
+=> "ABCDEF"
+
+>> "Dobalina Bob".sub(/([A-Z]\w+)\s+([A-Z]\w+)/, '\2 \1')
+=> "Bob Dobalina"
+
+Enumerable#grep		uses === comparison
+>> ["ABC", "def", "Ghi", "jKL"].grep(/[a-z]\w\w/)
+>> ["ABC", "def", "Ghi", "jKL"].select { |c| /[a-z]\w\w/ === c} 	same as above
+=> ["def, "jKL"]
+>> ["ABC", "def", "Ghi", "jKL"].grep(/[a-z]\w\w/) { |x| x.upcase }	can pass block
+=> ["DEF", "JKL"]
+# ["ABC", "def", "Ghi", "jKL"].grep(/[a-z]\w\w/).map(&:upcase) same as above
+
+

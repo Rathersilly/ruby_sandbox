@@ -1,0 +1,1 @@
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                           (B[m[39;49m[K

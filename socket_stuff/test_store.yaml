@@ -1,0 +1,8 @@
+---
+bob: !ruby/object:Person
+  name: bob
+  age: 30
+  info:
+    :hobby: snorkeling
+    :dream: to not die
+greeting: hello world

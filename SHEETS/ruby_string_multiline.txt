@@ -1,0 +1,32 @@
+string = <<-EOM 		puts <<EOM
+contents				hi there
+more contents			EOM
+EOM 	# <<- means EOM doesnt have to be flush-left
+
+% sign notation: the % sign indicates next char is delimiter eg:
+	%{stuff}
+	%[stuff]
+	%?stuff?
+
+% sign modifiers: 
+%q[ ] 	Non-interpolated String (except for \\ \[ and \])
+%Q[ ] 	Interpolated String (default)
+%r[ ] 	Interpolated Regexp (flags can appear after the closing delimiter)
+%s[ ] 	Non-interpolated Symbol
+%w[ ] 	Non-interpolated Array of words, separated by whitespace
+%W[ ] 	Interpolated Array of words, separated by whitespace
+%x[ ] 	Interpolated shell command
+
+p %{
+SELECT * FROM users
+	ORDER BY users.id DESC
+}.gsub(/\s+/, " ".strip
+=> "SELECT * FROM users ORDER BY users.id DESC"
+
+str = 'this is a multi-line string'\
+  ' using implicit concatenation'\
+  ' to prevent spare \n\'s'
+
+=> "this is a multi-line string using implicit concatenation
+	to eliminate spare \\n's"
+

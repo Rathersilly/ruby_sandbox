@@ -1,0 +1,24 @@
+hey thereyo whats up
+I, [2023-11-07T02:35:30.559925 #999083]  INFO -- : Starting again
+I, [2023-11-07T02:35:30.559977 #999083]  INFO -- : hihihihihi
+W, [2023-11-07T02:35:30.559995 #999083]  WARN -- : hihihihihi
+D, [2023-11-07T02:35:30.560009 #999083] DEBUG -- : hihihihihi
+hey
+RuntimeError
+hey thereyo whats up
+I, [2023-11-07T05:19:42.928189 #1011737]  INFO -- : Logger lets you chose warning level
+I, [2023-11-07T05:19:42.932229 #1011737]  INFO -- : like info
+W, [2023-11-07T05:19:42.932249 #1011737]  WARN -- : or warn
+D, [2023-11-07T05:19:42.932261 #1011737] DEBUG -- : or debug
+hey
+RuntimeError
+hey thereyo whats up
+I, [2023-11-07T05:20:13.760276 #1011754]  INFO -- : Logger lets you chose warning level
+I, [2023-11-07T05:20:13.760323 #1011754]  INFO -- : like info
+W, [2023-11-07T05:20:13.760340 #1011754]  WARN -- : or warn
+D, [2023-11-07T05:20:13.760352 #1011754] DEBUG -- : or debug
+hey
+W, [2023-11-07T05:20:13.760379 #1011754]  WARN -- : Error found
+after block
+W, [2023-11-07T05:20:13.760402 #1011754]  WARN -- : Error found
+W, [2023-11-07T05:20:13.760414 #1011754]  WARN -- : fshjdkflhjekslyhrujske

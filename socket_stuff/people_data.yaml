@@ -1,0 +1,18 @@
+--- !ruby/object:Person
+name: alice
+age: 100
+info:
+  :hobby: spelunking
+  :dream: to not die
+--- !ruby/object:Person
+name: bob
+age: 69
+info:
+  :hobby: snorkeling
+  :dream: have a pet giraffe
+--- !ruby/object:Person
+name: carlos
+age: 9001
+info:
+  :hobby: pumping iron
+  :dream: visit mars

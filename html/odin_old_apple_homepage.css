@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: -;
+	box-sizing: border-box;
+}
+.hero {
+	height: 700px;
+	width: 100vw;
+	min-width: 1000px;
+	background-size: 100% 100%;
+	background-image: url("/home/rathersilly/Pictures/Heli-Hiking.jpg");
+
+}
+.herotext {
+	position: relative;
+	top: 150px;
+	
+	font-size: 4em;
+	width: 50vw;
+	margin: auto;
+	text-align: center;
+	color: white;
+	white-space: nowrap;
+}
+.herotext-bottom {
+	top: 200px;
+}
+
+nav {
+	position: relative;
+	top: 70px;
+	width: 70vw;
+	margin:auto;
+
+	display: flex;
+	background: green;
+	justify-content: center;
+}
+.navitem {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px;
+	background: linear-gradient(to top,dimgrey,darkgrey);
+	flex-grow: 1;
+	text-align: center;
+}
+.after-hero {
+	display: flex;
+	width: 100vw;
+
+}
+.flexitem {
+	flex-grow: 1;
+	text-align: center;
+	background: tomato;
+	border: 10px;
+	border: 1px solid black;
+	height: 300px;
+	color: white;
+}
+
+.item1 {
+	background: linear-gradient(to top,white,tomato)
+}
+.item2 {
+	background: linear-gradient(to top,white,orange)
+}
+.item3 {
+	background: linear-gradient(to top,white,yellow)
+}
+.item4 {
+	background: linear-gradient(to top,white,green)
+}
+.flexitem-text {
+	padding-top: 20px;
+	font-size: 1.5em;
+	color: white;
+
+}
+footer {
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to right,white,teal, white,teal,white);
+			
+	color: white;
+}
+.footer-left {
+	display: flex;
+
+	float: left;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 100;
+	height: 100%;
+}
+.sitemap {
+	float: right;
+	display: flex;
+	height: 100%;
+	margin-right: 100;
+	align-items: center;
+
+}
+.sitemap-item {
+	border-right: 1px solid white;
+	padding: 0 5px 0 5px;
+}
+
+.sitemap-lastitem {
+	border: 0;
+
+}

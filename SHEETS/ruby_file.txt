@@ -1,0 +1,32 @@
+$/		# newline separator
+f = File.new('ruby_error.rb')
+f.close
+f.read		# reads whole file
+f.gets 		# returns nil after EOF
+f.readline 	# raises fatal error after EOF
+f.readlines	# returns array of lines
+f.getc		# also there's f.ungetc('x') - will replace chard with 'x'
+
+f.rewind	# set pos to 0
+f.pos 		# return pos		
+f.seek(20, IO::SEEK_SET) 	# seeks 20 bytes from beginning, same as f.seek(20)
+f.seek(15, IO::SEEK_CUR)	# seeks 15 bytes from current pointer
+f.seek(-10, IO::SEEK_END)	# seeks 10 bytes from end
+f.each { |line| puts line }
+
+full_text = File.read('myfile.txt')		# string of entire contents
+lines_of_text = File.readlines('myfile.txt')	# array of lines
+
+f = File.new('data.out', 'w')
+f.puts "hi there"
+f.close
+f = File.new('data.out', 'a')
+f.puts "General Kenobi"
+f.close
+
+File.open("records.txt") do |f|		File.open("records.txt") do |f|
+  while record = f.gets			  f.each do |record| 		
+    # do stuff				    # do stuff
+  end					  end
+end					end
+

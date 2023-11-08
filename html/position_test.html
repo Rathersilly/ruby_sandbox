@@ -1,0 +1,67 @@
+<link rel="stylesheet" href= "position_test.css">
+<body>
+  <div class="title">CSS Positioning Demo</div>
+  <div class="fixed">
+    position: fixed<br>
+    top: 0;<br>
+    right: 0;<br>
+  </div>
+  <div class="absolute">
+    position: absolute<br>
+    top: 300px;<br>
+    right: 50px;<br>
+  </div>
+  <div class="container">
+    <div class="innerdiv note float">
+      Note: text is centered in the <strong>tomato</strong> divs using<br>
+      display: table-cell;<br>
+      vertical-align: middle;<br>
+      text-align: center;<br>
+    </div>
+    <hr class="clearer">
+  </div>
+  <div class="title">Relatively positioned divs</div>
+  <div class="d1">
+    <div class="innerdiv">
+      1<br> left: 200px;
+    </div>
+  </div>
+  <div class="d2">
+    <div class="innerdiv">
+      2
+    </div>
+  </div>
+  <div class="d3">
+    <div class="innerdiv">
+      3 <br>left: 200px;<br> bottom: 50px;
+    </div>
+  </div>
+  <div class="d4">
+    <div class="innerdiv">
+      4
+    </div>
+  </div>
+  <div class="d5">
+    <div class="innerdiv">
+      5
+    </div>
+  </div>
+  <div class="title">Columns using relative position</div>
+
+  <div class="col-container">
+    position: relative;
+    <div class="col col-left">
+      position: absolute;<br>
+      top: 0;<br>
+      left: 0;<br>
+      width: 40%;<br>
+    </div>
+    <div class="col col-right">
+      position: absolute;<br>
+      top: 0;<br>
+      right: 0;<br>
+      width: 40%;<br>
+    </div>
+  </div>
+</body>
+
