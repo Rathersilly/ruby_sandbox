@@ -18,7 +18,7 @@ narrate do
   json = File.read('json_sample.json')
   pp json
 end
-exit
+# exit
 
 puts 'parsing json: '.green
 obj = JSON.parse(json)

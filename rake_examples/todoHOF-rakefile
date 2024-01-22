@@ -1,0 +1,116 @@
+# Some Rake resources
+# the ones listed in the rake readme
+# https://martinfowler.com/articles/rake.html#RakeTasks
+# https://graceful.dev/courses/the-freebies/modules/rake-and-project-automation/topic/episode-131-rake-rules/
+
+# rake/clean defines tasks :clean and :clobber
+# and the FileLists CLEAN and CLOBBER
+# clean is intended for removing scratch, backup, temp files
+# clobber is intended to restore project to pre-built state
+require 'rake/clean'
+
+# Options:
+# This will be verbose when following rules:
+# Rake.application.options.trace_rules = true
+
+# Command line args:
+# --help                # show help
+# -P --prereqs          # display tasks and dependencies, then exit
+# -n --dryrun           # dryrun
+# -t --trace=[OUT]      # trace to stdout or OUT
+# -T --tasks [PATTERN]  # list tasks matching pattern (or all)
+
+// TODO explain this
+require 'rake/testtask'
+
+
+task :test do
+  ruby 'path_to_enlightenment.rb'
+end
+
+# source_files = Rake::FileList["*.c"]
+source_files = Rake::FileList['foo.cpp', 'goo.cpp']
+object_files = source_files.ext('.o')
+
+task binary: object_files do
+  sh "g++ #{object_files} -o a.out"
+end
+
+rule '.o' => '.cpp' do |task|
+  sh "g++ -c #{task.source}"
+end
+
+# Default Task
+# %i converts to symbols
+# task default: %i[show_pwd show_ruby]
+# task default: :test
+task default: :binary
+task default: :test
+
+task :show_ruby do
+  puts "USER = #{`ENV['USER']`}"
+end
+
+task :test do
+  ruby 'path_to_enlightenment.rb'
+end
+
+# when running rake --tasks(-T), will show desc of each task
+
+rule '.o' => '.cpp' do |task|
+  sh "g++ -c #{task.source}"
+end
+
+task :clean do
+  sh 'rm -rf ./obj'
+  sh('rm  *.o')
+  # sh('rm -i *.o')
+end
+# desc 'compile foo.cpp'
+# task :binary do
+#   CC = 'g++'
+#   Sources = 'foo.cpp goo.cpp'
+#   # command_string = %w[CC Sources].join(' ')
+#   command_string = [CC, Sources].join(' ')
+#   sh command_string
+# end
+#
+# rakefile arguments
+# from command line : $ something fltk[3, "hello"]
+task :something, [:arg1, :arg2] do
+  puts :arg1, :arg2
+  p t
+  p args
+  p args[:arg1]
+end
+
+# running rake tasks in rake
+# https://stackoverflow.com/questions/577944/how-to-run-rake-tasks-from-within-rake-tasks
+if ARGV.size > 0
+  task ARGV[0].to_sym do
+    # file = ARGV[0]
+    # Rake::Task[:default].invoke
+    # execute works too, but doesnt run dependencies
+    # Rake::Task[:default].execute
+  end
+
+  # alternatively
+  if ARGV[0].include?('.cpp')
+    file = ARGV[0]
+    Rake::Task[:default].invoke
+  end
+end
+
+desc 'add 2 numbers'
+# task :add, [:a, :b] do |t, args|
+#   p t
+#   puts args[:a].to_i + args[:b].to_i
+# end
+task :add do
+  p ARGV # ["add", 1, 2]
+
+  # converting to symols so rake doesnt give "don't know how to build task" error
+  ARGV.each { |a| task a.to_sym }
+
+  puts ARGV[1].to_i + ARGV[2].to_i
+end

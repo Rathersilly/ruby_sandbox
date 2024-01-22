@@ -1,5 +1,9 @@
-# HOF candidate
 # https://docs.ruby-lang.org/en/master/syntax/literals_rdoc.html
+
+# consider this first
+string = 'line #1'\
+         'line #2'\
+         'line #3'
 
 result = <<HEREDOC
   <<IDENTIFIER creates a heredoc

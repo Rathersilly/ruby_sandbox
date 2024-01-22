@@ -25,9 +25,8 @@ end.parse!
 puts "cmdline options: #{options}"
 puts "ARGV: #{ARGV}"
 
-
 def bubble_sort_described(array)
-  puts "Entering bubble_sort_described(array)".yellow
+  puts 'Entering bubble_sort_described(array)'.yellow
   max_unsorted_index = array.size - 1
   puts 'set max_unsorted_index to last index of array'.yellow
 
@@ -63,15 +62,15 @@ def bubble_sort(array)
 end
 
 # uses unsorted flag to stop sorting
-def bubble_sort2(array)
-  unsorted = true
-  while unsorted
+def bubble_sort_with_flag(array)
+  sorted = false
+  until sorted
     i = 0
-    unsorted = false
+    sorted = true
     while i < (array.length - 1)
       if array[i] > array[i + 1]
         array[i], array[i + 1] = array[i + 1], array[i]
-        unsorted = true
+        sorted = false
       end
       i += 1
     end

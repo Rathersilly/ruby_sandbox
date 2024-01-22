@@ -1,0 +1,5 @@
+task :test, [:name] do |_t, args|
+
+  puts args[:namej
+sh 'ruby 
+end

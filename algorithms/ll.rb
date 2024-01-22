@@ -1,11 +1,20 @@
 class LinkedList
   # push pop shift unshift
+  class Node
+    # next prev start end etc
+    attr_accessor :next, :prev, :value
+
+    def initialize(value)
+      @value = value
+    end
+  end
+
   def initialize
     @head = nil
     @tail = nil
-
   end
-  def push value
+
+  def push(value)
     node = Node.new(value)
     if @head.nil?
       @head = node
@@ -16,17 +25,20 @@ class LinkedList
       @tail = node
     end
   end
+
   def pop
     value = @tail.value
     @tail = @tail.prev
     @tail.next = nil
     value
   end
-  def shift value
+
+  def shift(value)
     node = Node.new(value)
     node.next = @head
     @head = node
   end
+
   def print
     cur = @head
     while cur
@@ -35,8 +47,10 @@ class LinkedList
     end
     puts
   end
+
   def size
     return 0 unless @head
+
     n = 1
     cur = @head
     while cur.next
@@ -46,18 +60,10 @@ class LinkedList
     n
   end
 end
-class Node
-  # next prev start end etc
-  attr_accessor :next, :prev, :value
-  def initialize value
-    @value = value
-  end
-end
-
 
 list = LinkedList.new
 10.times do |i|
-  list.push i ** 2
+  list.push i**2
 end
 
 list.print
@@ -66,13 +72,12 @@ list.pop
 list.print
 
 3.times do |i|
-  list.shift i*7
+  list.shift i * 7
 end
 list.print
 
 p list.size
 3.times do |i|
-  list.shift i*7
+  list.shift i * 7
 end
 p list.size
-
